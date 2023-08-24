@@ -36,6 +36,7 @@ const CreateReaderForm = () => {
 
     return (
         <form className="form" onSubmit={handleSubmit}>
+            <h1>Create Reader</h1>
             <div className="form-group">
                 <label htmlFor="name">Name:</label>
                 <input

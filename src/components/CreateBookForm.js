@@ -37,6 +37,7 @@ const CreateBookForm = () => {
 
     return (
         <form className="form" onSubmit={handleSubmit}>
+            <h1>Create Book</h1>
             <div>
                 <label htmlFor="name">Name:</label>
                 <input
